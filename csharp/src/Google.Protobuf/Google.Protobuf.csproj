@@ -85,6 +85,7 @@
     <Compile Include="Compatibility\TypeExtensions.cs" />
     <Compile Include="FieldCodec.cs" />
     <Compile Include="FrameworkPortability.cs" />
+    <Compile Include="ICustomDiagnosticMessage.cs" />
     <Compile Include="IDeepCloneable.cs" />
     <Compile Include="InvalidJsonException.cs" />
     <Compile Include="JsonFormatter.cs" />
@@ -131,6 +132,7 @@
     <Compile Include="WellKnownTypes\DurationPartial.cs" />
     <Compile Include="WellKnownTypes\Empty.cs" />
     <Compile Include="WellKnownTypes\FieldMask.cs" />
+    <Compile Include="WellKnownTypes\FieldMaskPartial.cs" />
     <Compile Include="WellKnownTypes\SourceContext.cs" />
     <Compile Include="WellKnownTypes\Struct.cs" />
     <Compile Include="WellKnownTypes\TimeExtensions.cs" />
